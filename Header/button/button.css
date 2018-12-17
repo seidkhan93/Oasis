@@ -1,0 +1,59 @@
+.button {
+	 border: none;
+	 background-color: #6146D7;
+	 width: 263px;
+	 height: 77px;
+	 position: relative;
+	 border-radius: 3px;
+	 cursor: pointer;
+
+}
+.button__text {
+	font-family: Open Sans, OpenSans;
+	color: #FFFFFF;
+	line-height: 60px;
+	text-align: left;
+	font-size: 25px;
+	width: 126px;
+	height: 52px;
+	top: 7px;
+	left: 21px;
+	bottom: 18px;
+	text-transform: uppercase;
+	position: absolute;
+}
+.button__icon { 
+	width: 31px;
+	height: 37px;
+	position: absolute;
+	right: 24px;
+	top: 20px;
+}
+.button__icon_disabled { /* only in second button: <button class="button button_small button__icon_disabled">    */
+	visibility: disabled;
+}
+.button_small { /* only in second button:  <div class="button__text  button__text_small ">   */
+	line-height: 34px;
+	width: 169px;
+	height: 67px;
+}
+.button__text_small { /* only in second button: <button class="button button_small button__icon_disabled"> */
+	position: absolute;
+	width: 164px;
+	height: 35px;
+	font-weight: 300;
+	text-align: center;
+	font-style: normal;
+	text-transform: none;
+	line-height: normal;
+	top: 15px;
+	left:5px;
+
+}
+.button:hover {background-color: #3d25a7}
+
+.button:active {
+  background-color: #3d25a7;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

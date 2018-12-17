@@ -1,0 +1,58 @@
+@import 'allStyle.css';
+
+* {
+	box-sizing: border-box;
+}
+
+.top {
+	display: block;
+	min-height: 1178px;
+	height: auto;
+
+	background-color: #27253F;
+	background-size: cover;
+}
+
+.top__header {
+	margin-bottom: 120px;
+}
+
+.top__hero {
+	position: relative;
+
+	display: block;
+	min-height: 970px;
+	height: auto;
+
+	background-image: url('../stylesheets/icons/lines.svg');
+	background-size: contain;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+}
+
+.top__container {
+	width: 779px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.top__mask {
+	position: absolute;
+	bottom: -16px;
+	left: 50%;
+
+	transform: translate(-50%);
+	z-index: 100;
+}
+
+
+
+
+
+
+
+
+
+
+

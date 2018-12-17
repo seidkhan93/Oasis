@@ -1,0 +1,115 @@
+@import 'style/style.css';
+
+*{
+	margin:0;
+}
+.paragraphs{
+	background-color: #27253F;	
+}
+.container{
+	min-height: 1016px;
+	height: auto;
+	width:90%;
+	margin: 0 auto;
+}
+.paragraphs__headline{
+	padding-left: 259px;
+	padding-right: 241px;
+}
+.paragraphs__headline_top{
+	display: flex;
+	justify-content: center;
+	color:#ffffff;
+	font-family: Fjalla one;
+	font-size: 55px;
+	line-height: 64px;
+	font-weight: 400;
+}
+.paragraphs__headline_bottom{
+	display: flex;
+	justify-content: center;
+	padding-top:20px;
+	color:#ffffff;
+	font-family: Open sans;
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 200;
+}
+.paragraphs__footside{
+	display: flex;
+	flex-direction: row;
+
+	font-family: open sans;
+	font-size: 25px;
+	line-height: 34px;
+	color:#ffffff;
+	font-weight: 300;
+}
+.paragraphs__footside_left{
+	text-align: right;
+	width: 30%;
+}
+.paragraphs__list{
+	list-style-type: none;
+	padding-top: 120px;
+}
+.paragraphs__item_triangle{
+	background-image: url(images/Triangle.svg);
+	background-size: 200px;
+	padding-top: 30px;
+	background-position: 150px -80px;
+	background-repeat: no-repeat;
+	padding-bottom: 20px;
+}
+.paragraphs__item_oval{
+	background-image: url(images/Oval.svg);
+	background-size: 200px;
+	padding-top: 50px;
+	background-position: 150px -80px;
+	background-repeat: no-repeat;
+	padding-bottom: 20px;
+}
+.paragraphs__item_rectangle{
+	background-image: url(images/Rectangle.svg);
+	background-size: 200px;
+	padding-top: 30px;
+	background-position: 150px -80px;
+	background-repeat: no-repeat;
+	padding-bottom: 20px;
+}
+.paragraphs__footside_center{
+	padding-top: 50px;
+	width: 40%;
+	text-align: center;
+	margin: 0;
+}
+.paragraphs__footside_right{
+	text-align: left;
+	width: 30%;
+	padding-left: 0;
+}
+.paragraphs__item_polygon{
+	background-image: url(images/Polygon.svg);
+	background-size: 200px;
+	padding-top: 30px;
+	background-position: -80px -80px;
+	background-repeat: no-repeat;
+	padding-bottom: 20px;
+}
+.paragraphs__item_rect{
+	background-image: url(images/Rectangle.svg);
+	background-size: 200px;
+	padding-top: 30px;
+	background-position: -80px -80px;
+	background-repeat: no-repeat;
+	padding-bottom: 20px;
+}
+.paragraphs__item_star{
+	background-image: url(images/Star.svg);
+	background-size: 200px;
+	padding-top: 30px;
+	background-position: -80px -80px;
+	background-repeat: no-repeat;
+	padding-bottom: 20px;
+}
+

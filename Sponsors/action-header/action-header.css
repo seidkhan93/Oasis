@@ -1,0 +1,39 @@
+.sponsors {
+	padding: 100px 0;
+}
+
+.action-header {
+	font-family: Fjalla One;
+	font-style: normal;
+	color: #fff;
+	/*color: #000;*/
+	text-transform: uppercase;
+	line-height: 76px;
+	font-size: 70px;
+	text-align: left;
+	
+}
+
+.action-header_small { /*for all except for header */
+	line-height: 64px;
+	font-size: 55px;
+}
+
+.action-header_center { /*for all except for header*/
+	text-align: center;
+}
+
+.logos{
+	/*background: #27253F;*/
+	display: flex;
+	justify-content: center;
+}
+
+.logos__image{
+	display: inline-block;
+	margin-right: 60px;
+}
+
+.logos__image:last-of-type{
+	margin-right: 0;
+}

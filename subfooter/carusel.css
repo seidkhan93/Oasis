@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700');
+
+.section {
+	padding: 74px 0 120px;
+	background-color: #F6F2FE;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.section__heading{
+	font-weight: 300;
+	line-height: 41px;
+	font-size: 30px;
+	text-align: center;
+	color: #27253F;
+	margin-bottom: 64px;
+}
+.bottom__content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.content{
+	width: 460px;
+	background: #ffffff;
+	color:#27253F;
+	padding: 60px;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 700;
+	position: relative;
+}
+.indi{
+	width: 435px;
+	height: 435px;
+	background:#ffffff url('indus.jpeg') center no-repeat;
+	background-size: cover;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+	position: relative;
+	left: -10px;
+}
+.buttons{
+	position: absolute;
+	left:-30px;
+	top:50%;
+	transform: translateY(-50%);
+}
+.bottom__btn{
+	width: 60px;
+	height: 60px;
+	display: block;
+	outline: none;
+	border:none;
+	background-color: #E8E2F3;
+	background-size: 8px 14.5px;
+	background-position: center;
+	background-repeat: no-repeat; 
+	margin: 0;
+	cursor: pointer;
+}
+.bottom__btn_left{
+	background-image: url('btn_left.svg');
+}
+.bottom__btn_right{
+	background-image: url('btn_right.svg');
+}

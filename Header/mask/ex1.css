@@ -1,0 +1,111 @@
+.main-block{
+	min-height: 450px;
+	height: auto;
+	width: 939px;
+	background: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+}
+
+
+.top-side{
+	display: block;
+	padding-top: 30px;
+}
+
+.top-side__list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 46px;
+	border-bottom: 1px solid #D4D4D4;
+}
+
+.top-side__item {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 40px;
+	border-right: 1px solid #EAEAEA;
+}
+
+.top-side__item:last-of-type {
+	border-right: none;
+}
+
+.top-side__text {
+	text-align: left;
+	font-family: Open Sans;
+	font-size: 18px;
+	line-height: 25px;
+	color:#575757;
+	font-weight: 100;
+}
+
+.top-side__img {
+	background-position: 18% 5%;
+	background-repeat: no-repeat;
+}
+.top-side__img-git {
+	background-image: url(github.svg);
+}
+.top-side__img-cpu {
+	background-image: url(cpu.svg);
+}
+.top-side__img-dollar{
+	background-image: url(dollar-sign.svg);
+}
+.main-side{
+	padding: 46px 0 3px;
+}
+
+.main-side__container {
+	display: flex;
+	justify-content: space-between;
+	width: 836px;
+	margin:0 auto;
+}
+
+.left-side{
+	display: flex;
+	justify-content: flex-start;
+	width: 520px;
+	height: 253px;
+}
+.left-side__text{
+	color:#575757;
+	font-family: Open Sans;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: left;
+	font-weight: 100;
+}
+.right-side{
+	display: flex;
+	justify-content: flex-end;
+	width: 329px;
+	height: 253px;
+	
+}
+.right-side__text{
+	font-family: Fjalla One;
+	font-size: 55px;
+	line-height: 69px;
+	text-align: right;
+	color:#27253F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

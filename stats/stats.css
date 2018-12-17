@@ -1,0 +1,32 @@
+@import 'allstyles.css';
+
+.stats {
+	/*max-width: 859px;
+	max-height: 1246px;
+	width: auto;
+	height: auto; */
+	display: block;
+	height: auto;
+	
+}
+
+.stats-container {
+	margin: 0 auto;
+	width: 859px;
+
+}
+.action-header_distanced {
+	margin-bottom: 19px;
+}
+
+.action-text_distanced {
+	margin-bottom: 57px;
+}
+
+.stats-list {
+
+}
+
+.info-block_listed {
+	margin-bottom: 36px;
+}

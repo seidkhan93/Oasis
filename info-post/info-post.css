@@ -1,0 +1,22 @@
+@import 'Purple window/css/reset.css';
+@import 'Purple window/css/style.css';
+@import 'info-block/info-block.css';
+
+.info-post {
+	margin: 0 auto;
+	max-width: 953px;
+	max-height: 953px;
+	padding: 85px 0;
+	width: auto;
+	height: auto;
+	display: flex;
+}
+
+.info-block__listed {
+	margin: 28.67px;	
+}
+
+.info-post__right {
+	bottom: -201.38px;
+	position: relative;
+}

@@ -1,0 +1,16 @@
+<svg width="33060" height="32518" viewBox="0 0 33060 32518" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Polygon" filter="url(#filter0_d)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16529.8 13187.7L19364.7 15247.4L18281.9 18580H14777.7L13694.9 15247.4L16529.8 13187.7Z" fill="#4A90E2"/>
+</g>
+<defs>
+<filter id="filter0_d" x="145.888" y="0" width="32767.8" height="32490.3" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="37.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.314188 0 0 0 0 0.302185 0 0 0 0 0.458227 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>

@@ -1,0 +1,36 @@
+.header__ul {
+	 list-style:none;
+}
+
+.header__nav{
+	padding-top:53px;
+	
+}
+
+.header__list{
+	display: flex;
+	justify-content: center;
+}
+.header__item{
+	display: inline-block;
+	margin-right: 50px;
+}
+.header__item:last-of-type{
+	margin-right: 0;
+}
+.header__link{
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 4.4px;
+	padding-bottom: 5px;
+	
+}
+.header__link:hover{
+	border-bottom: 2px solid #fff;
+	transition: .1s;
+}
+

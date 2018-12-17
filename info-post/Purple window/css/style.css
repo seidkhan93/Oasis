@@ -1,0 +1,53 @@
+.p-window {
+	position: relative;
+
+	display: inline-block;
+	box-sizing: border-box;
+	width: 449px;
+	max-height: 576px;
+	height: auto;
+	padding: 57px 42px 37px;
+
+	background-color: #6146D7;
+	border: 1px solid #6146D7;
+	border-radius: 3px;
+	box-shadow: 0px 2px 10px #141321;
+
+}
+
+.p-window__title {
+	margin-bottom: 22px; 
+
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 55px;
+	line-height: 64px;
+	font-weight: normal;
+	text-transform: uppercase;
+
+	color: #fff;
+}
+
+.p-window__content {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	line-height: 33px;
+	font-weight: 300;
+	color: #fff;
+}
+
+.p-window__info {
+	position: absolute;
+	right: 42px;
+	top: -177px;
+}
+
+
+
+
+
+
+
+
+
+
+

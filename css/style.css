@@ -1,0 +1,34 @@
+@import 'allStyle.css';
+
+* {
+	box-sizing: border-box;
+}
+
+.page {
+	background-color: #27253F;
+}
+
+.page__top {
+	margin-bottom: 90px;
+}
+
+.page__info-post {
+	margin-bottom: 214px;
+}
+
+.page__paragraphs {
+	margin-bottom: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

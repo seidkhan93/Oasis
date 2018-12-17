@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+.action-text {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 33px;
+	color: #FFFFFF;
+	
+}
+
+.action-text_left {
+	text-align: left;
+}
+
+.action-text_center{
+	text-align: center;
+}
+
+.action-text_right {
+	text-align: right;
+}
